@@ -71,6 +71,7 @@ img {
 .page-header {
   border-bottom: 1px solid #ececec;
 }
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -122,6 +123,13 @@ img {
   display: flex;
   margin-left: auto;
 }
+.auth-nav > .item > .link {
+  display: flex;
+}
+.nav-icon {
+  color: currentColor;
+}
+
 .auth-nav .link {
   display: block;
   padding-top: 32px;
@@ -199,7 +207,6 @@ img {
   background-position: center;
   background-size: 70px;
 } */
-
 
 .features-list .item {
   width: 270px;
